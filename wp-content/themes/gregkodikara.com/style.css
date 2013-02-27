@@ -296,3 +296,7 @@ h2 {
 	opacity: 0.9;
 	background-color: #808990;
 }
+
+.blog-body, .work-body, .contact-body, .about-body {
+	display: none;
+}

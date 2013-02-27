@@ -51,16 +51,6 @@
 		<a class="menu-link" href="#">about</a>
 	</li>
 </ul>
-<div class="main-body">
-	<h1>Success is not the key to happiness...</h1>
-	<h2>Happiness is the key to success.</h2>
-	<div class="spin-menu">
-		<div class="spin-box" parentStyleId="item_1" id="menu_item_1"><div></div></div>
-		<div class="spin-box" parentStyleId="item_2" id="menu_item_2"><div></div></div>
-		<div class="spin-box" parentStyleId="item_3" id="menu_item_3"><div></div></div>
-		<div class="spin-box" parentStyleId="item_4" id="menu_item_4"><div></div></div>
-	</div>
-</div>
 
 <div class="social-bar">
 	<a class="menu-link menu-facebook" target="_blank" href="http://www.facebook.com/thekodikara"><img src="<?php bloginfo('template_url'); ?>/img/glyphicons/glyphicons_410_facebook_white.png"/></a>
