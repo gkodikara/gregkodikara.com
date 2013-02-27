@@ -3,8 +3,10 @@
 <head>
 	<meta charset="utf-8">
 	<title>Welcome to</title>
-	<script type="text/javascript" src="js/lib/jquery-1.5.2.min.js"></script>
-	<script type="text/javascript" src="js/lib/jquery-ui-1.8.16.custom.min.js"></script>
+	<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/lib/jquery-1.5.2.min.js"></script>
+	<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/lib/jquery-ui-1.8.16.custom.min.js">
+	<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/main.js">
+</script>
 
 	<!-- Rean's note: if you're wondering what are these items below, you should follow the link below -->
 	<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
@@ -52,11 +54,11 @@
 <div class="main-body">
 	<h1>Success is not the key to happiness...</h1>
 	<h2>Happiness is the key to success.</h2>
-	<div class="menu-body">
-		<div class="menu-item" parentStyleId="item_1" id="menu_item_1"><div class="main-box"></div></div>
-		<div class="menu-item" parentStyleId="item_2" id="menu_item_2"><div class="main-box"></div></div>
-		<div class="menu-item" parentStyleId="item_3" id="menu_item_3"><div class="main-box"></div></div>
-		<div class="menu-item" parentStyleId="item_4" id="menu_item_4"><div class="main-box"></div></div>
+	<div class="spin-menu">
+		<div class="spin-box" parentStyleId="item_1" id="menu_item_1"><div></div></div>
+		<div class="spin-box" parentStyleId="item_2" id="menu_item_2"><div></div></div>
+		<div class="spin-box" parentStyleId="item_3" id="menu_item_3"><div></div></div>
+		<div class="spin-box" parentStyleId="item_4" id="menu_item_4"><div></div></div>
 	</div>
 </div>
 
