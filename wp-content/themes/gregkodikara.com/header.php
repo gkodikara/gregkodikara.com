@@ -34,7 +34,7 @@
 
 <ul class="top-menu">
 	<li>
-		<a class="menu-logo">
+		<a class="logo">
 			<img src="<?php bloginfo('template_url'); ?>/img/8_trigram.png" height="75px" width="75px"/>
 		</a>
 	</li>

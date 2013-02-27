@@ -128,20 +128,19 @@ body {
 	margin: 23px 20px 5px 10px;
 	border-bottom: 2px solid transparent;
 	padding-bottom: 2px;
-	cursor: pointer;
 }
 
-.top-menu .menu-logo {
+.top-menu .logo {
 	position: relative;
 	top: -21px;
-
 }
 
-.top-menu li a img, .top-menu li a {
+.top-menu .logo img, .top-menu li a, .footer .logo img {
 	-webkit-transition: all 0.3s ease-in;
 	-moz-transition: all 0.3s ease-in;
 	-o-transition: all 0.3s ease-in;
 	transition: all 0.3s ease-in;
+	cursor: pointer;
 }
 
 .top-menu .menu-link:hover, .top-menu .menu-link-active {
@@ -149,7 +148,7 @@ body {
 	border-bottom: 2px solid rgba(255,255,255,0.3);
 }
 
-.top-menu li a:hover img {
+.top-menu .logo:hover img, .footer .logo:hover img {
 	-webkit-transform: rotate(360deg);
 	-moz-transform: rotate(360deg);
 	transform: rotate(360deg);
@@ -299,4 +298,24 @@ h2 {
 
 .blog-body, .work-body, .contact-body, .about-body {
 	display: none;
+}
+
+.footer {
+	text-align: center;
+	padding: 0px;
+	margin-top: 50px;
+}
+
+.footer .logo {
+	margin: 0px 10px;
+}
+
+.footer-right {
+}
+
+.footer-left, .footer-right {
+	font-size: 13px;
+	display: inline;
+	bottom: 14px;
+	position: relative;
 }
