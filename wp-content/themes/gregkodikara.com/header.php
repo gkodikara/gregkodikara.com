@@ -5,7 +5,6 @@
 	<title>Welcome to</title>
 	<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/lib/jquery-1.5.2.min.js"></script>
 	<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/lib/jquery-ui-1.8.16.custom.min.js">
-	<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/main.js">
 </script>
 
 	<!-- Rean's note: if you're wondering what are these items below, you should follow the link below -->
