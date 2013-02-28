@@ -34,8 +34,10 @@
 	<meta name="HandheldFriendly" content="true">
 </head>
 <body>
-<div class="container">
 <div class="top-menu">
+		<a class="top-logo">
+			<img src="<?php bloginfo('template_url'); ?>/img/8_trigram.png" height="75px" width="75px"/>
+		</a>
 		<a class="menu-link" href="#">work</a>
 		<a class="menu-link" href="#">about</a>
 		<a class="logo">
