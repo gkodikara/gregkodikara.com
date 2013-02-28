@@ -29,28 +29,22 @@
 	  <!--[if lt IE 9]>
 	    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 	  <![endif]-->
+
+	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="HandheldFriendly" content="true">
 </head>
 <body>
-
-<ul class="top-menu">
-	<li>
+<div class="container">
+<div class="top-menu">
+		<a class="menu-link" href="#">work</a>
+		<a class="menu-link" href="#">about</a>
 		<a class="logo">
 			<img src="<?php bloginfo('template_url'); ?>/img/8_trigram.png" height="75px" width="75px"/>
 		</a>
-	</li>
-	<li>
-		<a class="menu-link" href="#">contact</a>
-	</li>
-	<li>
 		<a class="menu-link" href="#">blog</a>
-	</li>
-	<li>
-		<a class="menu-link" href="#">work</a>
-	</li>
-	<li>
-		<a class="menu-link" href="#">about</a>
-	</li>
-</ul>
+		<a class="menu-link" href="#">contact</a>
+</div>
 
 <div class="social-bar">
 	<a class="menu-link menu-facebook" target="_blank" href="http://www.facebook.com/thekodikara"><img src="<?php bloginfo('template_url'); ?>/img/glyphicons/glyphicons_410_facebook_white.png"/></a>

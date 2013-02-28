@@ -5,5 +5,6 @@
 </a>
 <div class="footer-right">Theme built using Wordpress.</div>
 </div>
+</div>
 </body>
 </html>
