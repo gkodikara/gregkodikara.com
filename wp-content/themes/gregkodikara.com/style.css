@@ -25,7 +25,7 @@
 
 @-moz-keyframes changecolor {
 	0% {
-		background-color: rgb(242,130,91);
+		background-color: rgba(242,130,91,0.5);
 	}
 	25% {
 		background-color: blue;
@@ -44,7 +44,7 @@
 
 @-webkit-keyframes changecolor {
 	0% {
-		background-color: rgb(242,130,91);
+		background-color: rgba(242,130,91,0.5);
 	}
 	25% {
 		background-color: blue;
@@ -62,7 +62,7 @@
 
 @-o-keyframes changecolor {
 	0% {
-		background-color: rgb(242,130,91);
+		background-color: rgba(242,130,91,0.5);
 	}
 	25% {
 		background-color: blue;
@@ -80,7 +80,7 @@
 
 @keyframes changecolor {
 	0% {
-		background-color: rgb(242,130,91);
+		background-color: rgba(242,130,91,0.5);
 	}
 	25% {
 		background-color: blue;
@@ -105,15 +105,19 @@ body {
 	animation: changecolor 240s infinite linear;
   	font-family: 'Advent Pro', sans-serif;
 	color: white;
+	overflow-x: hidden;
+}
+
+.top-menu, .footer {
+	width: 100%;
+	position: relative;
+	text-align: center;
+	min-width: 500px;
+	height: auto;
 }
 
 .top-menu {
-	width: 100%;
-	position: relative;
 	top: -20px;
-	text-align: center;
-	min-width: 500px;
-	height: 70px;
 }
 
 .top-menu a {
@@ -121,7 +125,7 @@ body {
 	color: #ffffff;
 	font-size: 36px;
 	text-shadow: 0px 0px 5px #444;
-	margin: 23px 20px 5px 10px;
+	margin: 23px 10px 5px 10px;
 	border-bottom: 2px solid transparent;
 	padding-bottom: 2px;
 }
@@ -131,7 +135,16 @@ body {
 	top: 30px;
 }
 
-.top-menu .logo img, .top-menu a, .footer .logo img {
+.top-logo {
+	position: relative;
+	top: 10px;
+}
+
+.top-menu .top-logo {
+	display: none;
+}
+
+.top-menu .logo img, .top-logo img, .top-menu a, .footer .logo img {
 	-webkit-transition: all 0.3s ease-in;
 	-moz-transition: all 0.3s ease-in;
 	-o-transition: all 0.3s ease-in;
@@ -144,14 +157,14 @@ body {
 	border-bottom: 2px solid rgba(255,255,255,0.3);
 }
 
-.top-menu .logo:hover img, .footer .logo:hover img {
+.top-menu .logo:hover img, .top-logo:hover img {
 	-webkit-transform: rotate(360deg);
 	-moz-transform: rotate(360deg);
 	transform: rotate(360deg);
 }
 
 .main-body {
-
+	height: 90%;
 }
 
 .main-box {
@@ -297,31 +310,20 @@ h2 {
 }
 
 .footer {
-	text-align: center;
 	padding: 0px;
 }
 
-.footer .logo {
-	margin: 0px 10px;
-}
-
-.footer-right {
-}
-
-.footer-left, .footer-right {
-	font-size: 13px;
-	display: inline;
-	bottom: 14px;
-	position: relative;
-}
 
 @media screen and (max-width: 1023px){
 	.top-menu a {
-		font-size: 26px;
+		font-size: 32px;
 	}
 }
 
 @media screen  and (min-width: 480px) and (max-width: 640px) {
+	.top-menu, .footer {
+		min-width: 480px;
+	}
 	h1 {
 		font-size: 60px;
 		letter-spacing: 30px;
@@ -333,18 +335,18 @@ h2 {
 }
 
 @media screen  and (min-width: 320px) and (max-width: 480px) {
-	.top-menu {
+	.top-menu, .footer {
 		min-width: 320px;
-		height: 30px;
-		top: 0px;
 	}
 	.top-menu a {
-		font-size: 22px;
+		font-size: 26px;
 	}
-	.top-menu a.logo {
+	.logo {
 		display: none;
 	}
-
+	.top-menu .top-logo {
+		display: block;
+	}
 	h1 {
 		font-size: 30px;
 		letter-spacing: 10px;
@@ -353,19 +355,23 @@ h2 {
 		font-size: 20px;
 		letter-spacing: 5px;
 	}
+	.footer {
+		display: none;
+	}
 }
 
 @media screen  and (min-width: 240px) and (max-width: 320px) {
-	.top-menu {
+	.top-menu, .footer {
 		min-width: 240px;
-		height: 30px;
-		top: 0px;
 	}
 	.top-menu a {
-		font-size: 14px;
+		font-size: 16px;
 	}
-	.top-menu a.logo {
+	.logo {
 		display: none;
+	}
+	.top-menu .top-logo {
+		display: block;
 	}
 	h1 {
 		font-size: 24px;
@@ -375,6 +381,7 @@ h2 {
 		font-size: 13px;
 		letter-spacing: 10px;
 	}
-
-
+	.footer {
+		display: none;
+	}
 }
