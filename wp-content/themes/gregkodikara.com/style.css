@@ -321,7 +321,7 @@ h2 {
 	background-color: #808990;
 }
 
-.blog-body, .work-body, .contact-body, .about-body {
+.blog-page, .work-page, .contact-page, .about-page {
 	display: none;
 }
 

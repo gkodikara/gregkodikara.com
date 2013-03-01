@@ -3,6 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<title>Welcome to</title>
+	<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/lib/jquery-1.5.2.min.js"></script>
 	<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/lib/jquery-ui-1.8.16.custom.min.js">
 </script>
 <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/main.js"></script>
@@ -35,16 +36,16 @@
 </head>
 <body>
 <div class="top-menu">
-		<a class="top-logo">
+		<a class="top-logo" href="javascript:void(0);">
 			<img src="<?php bloginfo('template_url'); ?>/img/8_trigram.png" height="75px" width="75px"/>
 		</a>
-		<a class="menu-link" target="work-page" href="#">work</a>
-		<a class="menu-link" target="about-page" href="#">about</a>
-		<a class="logo">
+		<a class="menu-link" target="work-page" href="javascript:void(0);">work</a>
+		<a class="menu-link" target="about-page" href="javascript:void(0);">about</a>
+		<a class="logo" href="javascript:void(0);">
 			<img src="<?php bloginfo('template_url'); ?>/img/8_trigram.png" height="75px" width="75px"/>
 		</a>
-		<a class="menu-link" target="blog-page" href="#">blog</a>
-		<a class="menu-link" target="contact-page" href="#">contact</a>
+		<a class="menu-link" target="blog-page" href="javascript:void(0);">blog</a>
+		<a class="menu-link" target="contact-page" href="javascript:void(0);">contact</a>
 </div>
 
 <div class="social-bar">
