@@ -23,7 +23,6 @@
 	    			<link rel="stylesheet" href="stylesheets/ie.css">
 	  <![endif]-->
 	  <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
-	  <script type="text/javascript" src="js/lib/modernizr.foundation.js"></script>
 
 	  <!-- IE Fix for HTML5 Tags -->
 	  <!--[if lt IE 9]>
