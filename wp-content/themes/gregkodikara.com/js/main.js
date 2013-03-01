@@ -9,7 +9,9 @@ $(document).ready(function(){
 
 		fnChangePage: function(){
 			$(".menu-link").click(function(){
-				alert("something");
+				var sTarget = $(this).attr("target");
+				$(".main-body .page").hide();
+				$("."+sTarget).show();
 			});
 		}
 
