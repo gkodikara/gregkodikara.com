@@ -1,8 +1,21 @@
+$(document).ready(function(){
+	
+	var oHomepage = {
 
-var oMain = new Main();
-
-var Main = {
+		fnInitMain: function(){
 
 
+		},
 
-};
+		fnChangePage: function(){
+			$(".menu-link").click(function(){
+				alert("something");
+			});
+		}
+
+	};
+
+	oHomepage.fnInitMain();
+
+
+});
