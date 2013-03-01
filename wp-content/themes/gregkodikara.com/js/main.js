@@ -3,15 +3,16 @@ $(document).ready(function(){
 	var oHomepage = {
 
 		fnInitMain: function(){
-
+			var self = this;
+			self.fnInitChangePage();
 
 		},
 
-		fnChangePage: function(){
+		fnInitChangePage: function(){
 			$(".menu-link").click(function(){
 				var sTarget = $(this).attr("target");
-				$(".main-body .page").hide();
-				$("."+sTarget).show();
+				$(".main-body .show").removeClass("show");
+				$("."+sTarget).addClass("show");
 			});
 		}
 
