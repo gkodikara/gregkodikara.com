@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
 <div class="main-body">
-	<div class="home-page page">
+	<div class="home-page page show">
 		<h1>Success is not the key to happiness...</h1>
 		<h2>Happiness is the key to success.</h2>
 	</div>

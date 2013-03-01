@@ -23,6 +23,9 @@
   src: local('Advent Pro Bold'), local('AdventPro-Bold'), url(css/font/advent-pro-700.woff) format('woff');
 }
 
+.show {
+	display: block;
+}
 
 @-moz-keyframes changecolor {
 	0% {
