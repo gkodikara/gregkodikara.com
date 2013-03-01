@@ -3,9 +3,9 @@
 <head>
 	<meta charset="utf-8">
 	<title>Welcome to</title>
-	<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/lib/jquery-1.5.2.min.js"></script>
 	<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/lib/jquery-ui-1.8.16.custom.min.js">
 </script>
+<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/main.js"></script>
 
 	<!-- Rean's note: if you're wondering what are these items below, you should follow the link below -->
 	<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
@@ -38,13 +38,13 @@
 		<a class="top-logo">
 			<img src="<?php bloginfo('template_url'); ?>/img/8_trigram.png" height="75px" width="75px"/>
 		</a>
-		<a class="menu-link" href="#">work</a>
-		<a class="menu-link" href="#">about</a>
+		<a class="menu-link" target="work-page" href="#">work</a>
+		<a class="menu-link" target="about-page" href="#">about</a>
 		<a class="logo">
 			<img src="<?php bloginfo('template_url'); ?>/img/8_trigram.png" height="75px" width="75px"/>
 		</a>
-		<a class="menu-link" href="#">blog</a>
-		<a class="menu-link" href="#">contact</a>
+		<a class="menu-link" target="blog-page" href="#">blog</a>
+		<a class="menu-link" target="contact-page" href="#">contact</a>
 </div>
 
 <div class="social-bar">
