@@ -11,8 +11,8 @@ $(document).ready(function(){
 		fnInitChangePage: function(){
 			$(".menu-link").click(function(){
 				var sTarget = $(this).attr("target");
-				$(".main-body .show").removeClass("show");
-				$("."+sTarget).addClass("show");
+				$(".main-body .page").not($("." + sTarget)).hide();
+				$("." + sTarget).fadeIn(100);
 			});
 		}
 
